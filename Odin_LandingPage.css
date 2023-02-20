@@ -1,3 +1,7 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -8,9 +12,6 @@
     font-size: 24px;
     color: #f9faf8;
 }
-.rightLinks{
-    
-}
 ul{
     list-style-type:none;
     display: flex;
@@ -20,4 +21,32 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.title{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 32px;
+}
+.info{
+    max-width: 200px;
+}
+.footer{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 40px;
+    
 }
