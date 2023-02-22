@@ -36,6 +36,14 @@ a{
 .info{
     max-width: 200px;
 }
+.main3{
+    background-color: #e5e7eb;
+}
+p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
 .footer{
     background-color: #1f2937;
     font-size: 18px;
