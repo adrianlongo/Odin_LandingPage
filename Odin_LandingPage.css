@@ -46,6 +46,7 @@ a{
     color: #f9faf8;
 }
 .photo{
+    background-color: e5e7eb;
     border: 2px solid #3882f6;
     border-radius: 5px;
     flex: 1;
@@ -119,7 +120,15 @@ a{
     font-weight: bold;
     font-size: 24px;
 }
-.signUp2, .signUp1{
+.signUp1 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #3882f6;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.signUp2{
     background-color: #3882f6;
     color: #f9faf8;
     border: 2px solid #f9faf8;
@@ -134,7 +143,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     bottom: 0px;
     right: 0px;
     left: 0px;
