@@ -1,14 +1,15 @@
 body{
     font-family: 'Courier New', Courier, monospace;
         text-align: center;
-        padding-left: 150px;
-        padding-right: 150px;
+        
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .headerLogo{
     font-size: 24px;
@@ -24,9 +25,36 @@ a{
     font-size: 18px;
     color: #e5e7eb;
 }
+.main1{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.leftText{
+    text-align: left;
+    flex: 1;
+}
+.titleAwesome{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.textComment{
+    color: #f9faf8;
+}
+.photo{
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    flex: 1;
+}
 .main2{
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .container{
     display: flex;
@@ -39,11 +67,19 @@ a{
     color: #1f2937;
     margin: 32px;
 }
+.img{
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    min-width: 200px;
+    min-height: 200px;
+}
 .info{
     max-width: 200px;
 }
 .main3{
     background-color: #e5e7eb;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .text{
     padding: 100px;
@@ -63,7 +99,10 @@ a{
     font-weight: bold;
 }
 .main4{
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .modal{
     display: flex;
@@ -80,7 +119,7 @@ a{
     font-weight: bold;
     font-size: 24px;
 }
-.signUp{
+.signUp2, .signUp1{
     background-color: #3882f6;
     color: #f9faf8;
     border: 2px solid #f9faf8;
@@ -100,5 +139,5 @@ a{
     right: 0px;
     left: 0px;
     height: 40px;
-    
-}
+    padding-left: 150px;
+    padding-right: 150px;}
