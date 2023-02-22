@@ -1,6 +1,8 @@
 body{
     font-family: 'Courier New', Courier, monospace;
         text-align: center;
+        padding-left: 150px;
+        padding-right: 150px;
 }
 .header{
     display: flex;
@@ -22,6 +24,10 @@ a{
     font-size: 18px;
     color: #e5e7eb;
 }
+.main2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -39,10 +45,48 @@ a{
 .main3{
     background-color: #e5e7eb;
 }
-p{
-    font-size: 36px;
+.text{
+    padding: 100px;
+}
+.quote, .signature{
+    
     font-style: italic;
     color: #1f2937;
+}
+.quote{
+    font-size: 36px;
+    text-align: left;
+}
+.signature{
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
+.main4{
+    padding: 100px;
+}
+.modal{
+    display: flex;
+    padding: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.textModal{
+    text-align: left;
+}
+.callAction{
+    font-weight: bold;
+    font-size: 24px;
+}
+.signUp{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
 }
 .footer{
     background-color: #1f2937;
